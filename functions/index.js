@@ -32,7 +32,9 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
 
 
     function categoria(agent) {
-        agent.add("Se Ha conseguido shaval");
+        let num = request.body.queryResult.parameters.number;
+        let category = request.body.queryResult.parameters.Categorias;
+        agent.add("Fulfilment encontro el pago de " + num + " en la categoria " + category);
     }
     // // Uncomment and edit to make your own intent handler
     // // uncomment `intentMap.set('your intent name here', yourFunctionHandler);`
