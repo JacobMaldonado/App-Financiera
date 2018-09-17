@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "490462072227",
+    "firebase_url": "https://bot-financiero.firebaseio.com",
+    "project_id": "bot-financiero",
+    "storage_bucket": "bot-financiero.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490462072227:android:9613695b105d2f64",
+        "android_client_info": {
+          "package_name": "com.duckfinance.duckfinance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490462072227-083rsa5c61sv4kseebe8sfgmeaph2r77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.duckfinance.duckfinance",
+            "certificate_hash": "7bd0fa8185aa2557be3c82b6a68564ed9ca56ad2"
+          }
+        },
+        {
+          "client_id": "490462072227-qdp2q1lrcq1olcmlfj6km5pabralk7ik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9Ce8UweyioAgcVi86TqJJEc0kEIM_yfE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490462072227-qdp2q1lrcq1olcmlfj6km5pabralk7ik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490462072227:android:c707092af180b9d1",
+        "android_client_info": {
+          "package_name": "com.jacob.pruebafinanciera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490462072227-ukoq10ohimr5v93207ve00f0t6vcj3pe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jacob.pruebafinanciera",
+            "certificate_hash": "7bd0fa8185aa2557be3c82b6a68564ed9ca56ad2"
+          }
+        },
+        {
+          "client_id": "490462072227-qdp2q1lrcq1olcmlfj6km5pabralk7ik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9Ce8UweyioAgcVi86TqJJEc0kEIM_yfE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490462072227-qdp2q1lrcq1olcmlfj6km5pabralk7ik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

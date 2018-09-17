@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#15959F</color>
+    <color name="colorPrimaryDark">#11767e</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="background_modules">#F1E2CB</color>
+    <color name="text_color">#707070</color>
+    <color name="button_color">#EE6561</color>
+
+    <color name="category_feeding">#78AFBD</color>
+    <color name="category_bills_and_payments">#A0CF6A</color>
+    <color name="category_home">#FCB855</color>
+    <color name="category_transport">#BD80C8</color>
+    <color name="category_clothes">#4B5D9A</color>
+    <color name="category_healt_and_hygiene">#EE6561</color>
+    <color name="category_entertainment">#4A9A94</color>
+    <color name="category_others">#9B9B9B</color>
+
+</resources>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Duck Finance</string>
+
+    <!--TITLES of app screens-->
+    <string name="title_home">INICIO</string>
+    <string name="title_record">HISTORIAL</string>
+    <string name="title_balance">BALANCE</string>
+    <string name="title_review">ANÁLISIS</string>
+    <string name="title_tips">CONSEJOS</string>
+    <string name="title_new_spending">NUEVO GASTO</string>
+
+    <!-- Names of categories-->
+    <string name="category_record">Historial</string>
+    <string name="category_balance">Balance</string>
+    <string name="category_review">Análisis</string>
+    <string name="category_tips">Consejos</string>
+
+    <!--Description of each category-->
+    <string name="category_record_description">Ultimo movimiento registrado</string>
+    <string name="category_balance_description">Gasto mas fuerte que se ha tenido</string>
+    <string name="category_review_description">Fecha del último análisis</string>
+    <string name="category_tips_description">Disponibilidad del huevo de pato</string>
+
+    <!-- Name of Spending categories-->
+    <string name="spending_category_feeding">Alimentación</string>
+    <string name="spending_category_bills_and_payments">Cuentas y Pagos</string>
+    <string name="spending_category_home">Vivienda</string>
+    <string name="spending_category_transport">Transporte</string>
+    <string name="spending_category_clothes">Ropa</string>
+    <string name="spending_category_health_and_hygiene">Salud e Higiene</string>
+    <string name="spending_category_entertainment">Diversion</string>
+    <string name="spending_category_others">Otros Gastos</string>
+
+    <!-- type of register-->
+    <string name="spending_text">Gasto</string>
+    <string name="deposit_text">Ingreso</string>
+
+    <!-- balance spending names-->
+
+    <string name="balance_small_spending">Menor Gasto</string>
+    <string name="balance_medium_spending">Gasto Medio</string>
+    <string name="balance_high_spending">Mayor Gasto</string>
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linearlayout_margin_8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InicioAct">
+
+    <!--ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"-->
+
+    <TextView
+        android:id="@+id/inicio_tv_title"
+        style="@style/title_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_home" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                android:orientation="horizontal">
+
+                <!--TODO: Change for Imagge View-->
+                <ImageView
+                    style="@style/imagebutton_style"
+                    android:id="@+id/home_ibtn_record"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/historial"
+                    />
+
+                <ImageView
+                    style="@style/imagebutton_style"
+                    android:id="@+id/home_ibtn_balance"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_weight=".5"
+                    android:src="@drawable/balance"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/imagebutton_style"
+                    android:id="@+id/home_ibtn_review"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_weight=".5"
+                    android:src="@drawable/analisis"/>
+
+                <ImageView
+                    style="@style/imagebutton_style"
+                    android:id="@+id/home_ibtn_tips"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_weight=".5"
+                    android:src="@drawable/consejos"/>
+
+            </LinearLayout>
+
+            <Button
+                style="@style/button"
+                android:id="@+id/home_ibtn_newtransaction"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="NUEVO REGISTRO"
+                android:scaleType="center"/>
+
+
+        </LinearLayout>
+
+    <!--/ScrollView-->
+
+</LinearLayout>

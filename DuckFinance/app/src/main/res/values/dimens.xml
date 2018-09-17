@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Title attributes-->
+    <dimen name="title_margin_top">16dp</dimen>
+    <dimen name="title_size">24sp</dimen>
+
+    <!--ImageButton margin-->
+    <dimen name="ibtn_margin">4dp</dimen>
+
+
+    <!--Generic Dimens-->
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+    <dimen name="big_margin">24dp</dimen>
+
+    <!--Transaction Text Size-->
+    <dimen name="transaction_text_size">14sp</dimen>
+</resources>

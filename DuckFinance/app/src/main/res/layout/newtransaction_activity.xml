@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linearlayout_margin_8dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewTransactionAct">
+
+    <TextView
+        style="@style/title_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_new_spending"/>
+
+    <EditText
+        android:id="@+id/newtransaction_edittext"
+        android:layout_margin="@dimen/ibtn_margin"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:gravity="center"
+        android:background="@color/background_modules"
+        android:textSize="72sp"
+        android:cursorVisible="false"
+        android:hint="  $ 0.00 "/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/newtransaction_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
